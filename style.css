@@ -1,0 +1,42 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: #f2f2f7;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+header {
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #007aff;
+}
+main {
+    padding: 1rem;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+.product-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.image-placeholder {
+    width: 100%;
+    height: 100px;
+    background: #d1d1d6;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
